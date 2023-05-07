@@ -460,19 +460,23 @@
     display: flex;
   }
 
+  .footer .footer__wrapper .footer__group .footer__text:first-child{
+    margin-right: 5rem;
+  }
+
   .footer .footer__wrapper .footer__group .footer__text{
-    margin: 0 2rem;
+    margin: 0rem;
   }
 
   .footer .footer__wrapper .footer__group:first-child .footer__text:last-child{
-    margin: 0 6.5rem;
+    margin: 0 4.3rem;
   }
 
   .footer .footer__wrapper .footer__group .footer__text .footer__actions .actions{
     position: absolute;
     left: 0;
     bottom: 0;
-    margin-left: 3.5rem;
+    margin-left: 1.5rem;
     margin-bottom: 5rem;
   }
 }
